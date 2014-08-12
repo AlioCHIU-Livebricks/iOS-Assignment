@@ -6,8 +6,8 @@
 - Mac OSX 10.9
 
 ###資料
-- API:  
-http://www.indexbricks.com/data/get_update.php?function_code=Intro&store=livebricks&version=0&language=TW
+- API位置:  
+`http://www.indexbricks.com/data/get_update.php?function_code=Intro&store=livebricks&version=0&language=TW`
 - JSON格式
 - image資料:  
 image_url
@@ -16,10 +16,10 @@ description
 
 
 ###功能
-1. App啟動以後會先去API取得資料，再產生畫面
-2. 畫面layout: 全版面的scrollview,裡面包含 1/2畫面高的imageview, 1/2畫面高的textview
+1. App啟動以後會先去API取得資料,再產生畫面
+2. 畫面layout:全版面的scrollview,裡面包含1/2畫面高的imageview,1/2畫面高的textview
 3. scrollview要可以依照API資料個數左右移動
-4. imageview的比例要對，等比例放大縮小
+4. imageview的比例要對,等比例放大縮小
 5. textview要可以偵測link,phone,email
 
 ###加分題 (就...多做有飲料喝)
@@ -34,5 +34,5 @@ description
 
 ###參考資料
 1. iNDEX 線上版的intro功能
-2. https://developer.apple.com/library/ios/navigation/
+2. Apple官方文件 `https://developer.apple.com/library/ios/navigation/`
 3. Alio,Andy,Phinix,Henry
